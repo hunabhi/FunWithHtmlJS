@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ccc;
+  padding: 16px;
+  width: 200px;
+  min-height: 200px;
+  margin: 16px;
+  border-radius: 10px;
+}
+.list.list2 {
+  border-style: dotted;
+}
+.list-item {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px 0;
+  cursor: move;
+}

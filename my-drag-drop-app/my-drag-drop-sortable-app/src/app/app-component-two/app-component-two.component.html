@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="box" (dragover)="onDragOver($event)" (drop)="onDrop($event)">
+    <div class="title">Box 1</div>
+    <ul class="list">
+      <li *ngFor="let item of items1" class="item" draggable="true" (dragstart)="onDragStart($event, item)">{{ item }}</li>
+    </ul>
+  </div>
+  <div class="box" (dragover)="onDragOver($event)" (drop)="onDrop($event)">
+    <div class="title">Box 2</div>
+    <ul class="list">
+      <li *ngFor="let item of items2" class="item" draggable="true" (dragstart)="onDragStart($event, item)">{{ item }}</li>
+    </ul>
+  </div>
+</div>

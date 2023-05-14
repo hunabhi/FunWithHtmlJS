@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 300px;
+  height: 400px;
+  margin: 0 50px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.title {
+  background-color: #ccc;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.item {
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: move;
+}
